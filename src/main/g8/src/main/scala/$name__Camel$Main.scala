@@ -1,5 +1,5 @@
 package $organization$.$slug$
 
-object Main extends App {
+object $name;format="Camel"$Main extends App {
   
 }
