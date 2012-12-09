@@ -1,5 +1,3 @@
-seq(giter8Settings :_*)
-
 resolvers += Resolver.url(
   "sbt-plugin-releases", 
   new URL("http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/")
@@ -8,3 +6,4 @@ resolvers += Resolver.url(
 resolvers += "schleichardts Github" at "http://schleichardt.github.com/jvmrepo/"
 
 seq(com.github.retronym.SbtOneJar.oneJarSettings: _*)
+
