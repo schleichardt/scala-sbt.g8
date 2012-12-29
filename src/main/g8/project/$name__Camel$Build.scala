@@ -11,7 +11,6 @@ object $name;format="Camel"$Build extends Build {
       organization := "$organization$",
       version := "$version$",
       scalaVersion := "$scala_version$",
-      resolvers += Resolver.url("sbt-plugin-releases", new URL("http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/"))(Resolver.ivyStylePatterns),
       resolvers += "schleichardts Github" at "http://schleichardt.github.com/jvmrepo/"
       // add other settings here
     ) ++ seq(com.github.retronym.SbtOneJar.oneJarSettings: _*)
