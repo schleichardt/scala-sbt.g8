@@ -11,7 +11,7 @@ object $name;format="Camel"$Build extends Build {
       organization := "$organization$",
       version := "$version$",
       scalaVersion := "$scala_version$",
-      resolvers += "schleichardts Github" at "http://schleichardt.github.com/jvmrepo/"
+      resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
       // add other settings here
     ) ++ seq(com.github.retronym.SbtOneJar.oneJarSettings: _*)
   )
